@@ -22,7 +22,3 @@ I am a 3rd-year ICT in Application Development student at Cape Peninsula Univers
 - **Phone:** 076 967 3393  
 - **Location:** Woodstock, Cape Town  
 
----
-
-## 📌 References
-**Ronald Mathonsi** – Financial Administrator, Nkangala TVET College | 072 841 7533
