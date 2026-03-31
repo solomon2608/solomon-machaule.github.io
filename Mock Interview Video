@@ -1,3 +1,5 @@
-# 🎥 Mock Interview Video
+<h2>Mock Video Interview</h2>
 
-Watch my mock interview here: https://drive.google.com/file/d/1dHDcCa0lBfb5YACyfLGqiFlUHoq3EHPe/view?usp=drive_link
+<video width="600" controls>
+  <source src="WIL-2026/MockVideoInteview.mp4" type="video/mp4">
+</video>
