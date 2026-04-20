@@ -5,7 +5,7 @@
 - **Location:** Woodstock, Cape Town  
 
 ## 🎯 Objective
-I am third-year IT student with experience in academic projects and administrative tasks. I am skilled in process analysis, project support, and data analysis. I am eager to contribute and gain practical experience in a professional environment.
+I am an IT student specialising in Application Development, with hands-on experience in Java and MySQL through academic projects. I have developed desktop applications and contributed to business analysis tasks, including requirements gathering and process improvement. I also bring administrative experience from a financial support role, where I handled data processing and ensured accuracy in documentation. I am seeking an opportunity to apply my technical and analytical skills in a professional environment while continuing to grow in the IT field.
 
 ---
 
@@ -37,6 +37,7 @@ I am third-year IT student with experience in academic projects and administrati
 - Redesigned the Spotify application using Figma.
 - Improved the layout, navigation, and the overall user experience.
 - Created interactive prototypes to show application flow.
+
 ---
 
 ## 💼 Work Experience
@@ -68,3 +69,20 @@ I am third-year IT student with experience in academic projects and administrati
 Financial Administrator  
 Nkangala TVET College  
 📞 072 841 7533  
+
+---
+
+## 📝 Reflections
+
+### 📄 Reflection on Using Markdown (.md)
+Using Markdown to create my CV and portfolio helped me understand how to structure content in a clean and readable way. I learned how to use headings, lists, and formatting to organize information clearly. Markdown is simple but powerful, and it made my document look professional without needing complex tools. This experience also improved my attention to detail when presenting technical information.
+
+---
+
+### 🎤 Reflection on Mock Interview
+The mock interview helped me understand how to present myself professionally and communicate my skills effectively. I realized the importance of being clear, confident, and prepared when answering questions. It also showed me areas where I need improvement, such as explaining my projects in more detail and giving structured answers. Overall, it was a valuable experience that helped me build confidence for real interviews.
+
+---
+
+### 🌐 Reflection on GitHub Pages Deployment
+Deploying my portfolio using GitHub Pages was a valuable learning experience. I learned how to publish my work online and make it accessible to others. Initially, I found the process challenging, especially understanding how repositories and deployment work, but with practice, I became more comfortable. This experience improved my technical skills and gave me a sense of achievement seeing my portfolio live.
