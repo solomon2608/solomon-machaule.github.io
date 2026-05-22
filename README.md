@@ -1,4 +1,4 @@
-# 📄 Curriculum Vitae
+# 📄 Portfolio
 ## 📞 Contact
 - **Email:** 222359366@mycput.ac.za  
 - **Phone:** 076 967 3393  
@@ -54,7 +54,8 @@ I am an IT student specialising in Application Development, with hands-on experi
 
 ### Technical Skills
 - Database management (MySQL)  
-- Java programming (NetBeans, GitHub, IntelliJ)  
+- Java programming (NetBeans, GitHub, IntelliJ)
+- HTML, CSS, JavaScript  
 - Requirements gathering and documentation  
 - Process analysis and workflow improvement  
 
@@ -72,17 +73,4 @@ Nkangala TVET College
 
 ---
 
-## 📝 Reflections
 
-### 📄 Reflection on Using Markdown (.md)
-Using Markdown to create my CV and portfolio helped me understand how to structure content in a clean and readable way. I learned how to use headings, lists, and formatting to organize information clearly. Markdown is simple but powerful, and it made my document look professional without needing complex tools. This experience also improved my attention to detail when presenting technical information.
-
----
-
-### 🎤 Reflection on Mock Interview
-The mock interview helped me understand how to present myself professionally and communicate my skills effectively. I realized the importance of being clear, confident, and prepared when answering questions. It also showed me areas where I need improvement, such as explaining my projects in more detail and giving structured answers. Overall, it was a valuable experience that helped me build confidence for real interviews.
-
----
-
-### 🌐 Reflection on GitHub Pages Deployment
-Deploying my portfolio using GitHub Pages was a valuable learning experience. I learned how to publish my work online and make it accessible to others. Initially, I found the process challenging, especially understanding how repositories and deployment work, but with practice, I became more comfortable. This experience improved my technical skills and gave me a sense of achievement seeing my portfolio live.
