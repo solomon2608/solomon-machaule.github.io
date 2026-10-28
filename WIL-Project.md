@@ -1,4 +1,4 @@
-# Go Clean: Agile E-Portfolio
+# WIL Project: Agile E-Portfolio
 
 **Project:** Go Clean Laundry Service
 **Portfolio Type:** Agile Project E-Portfolio
