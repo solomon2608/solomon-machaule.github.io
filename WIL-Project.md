@@ -123,7 +123,7 @@ The Agile Team Charter establishes a shared understanding of the team's objectiv
 
 ### Evidence
 
-**Agile Team Charter:** [Insert the link to the completed Go Clean Team Charter.]
+**Agile Team Charter:** [completed Go Clean Team Charter.]
 
 ### Reflection
 
@@ -210,6 +210,9 @@ Unlike the Product Backlog, which represents the broader work associated with th
 ### Evidence
 
 **Sprint Backlog:** [Access the Go Clean Trello Board](https://trello.com/b/Ia2c4Am0)
+![Go Clean Trello Sprints](screenshots/goclean-sprints.png)
+
+![Go Clean Trello Sprints](screenshots/goclean-sprints2.png)
 
 The evidence should make it clear which tasks were selected for the sprint and how they relate to the team's development objectives.
 
@@ -235,7 +238,7 @@ The Agile Logbook documents project activities, progress, challenges, decisions,
 
 ### Evidence
 
-**Agile Logbook:** [Insert the link to the completed Go Clean Agile Logbook.]
+**Agile Logbook:** [completed Go Clean Agile Logbook.]
 
 ### Reflection
 
