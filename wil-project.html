@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Go Clean | Agile E-Portfolio</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+{
+box-sizing: border-box;
+}
+body {
+margin: 0;
+padding: 40px 20px;
+background: #F7F4EC;
+color: #304F59;
+font-family: 'Segoe UI', Arial, sans-serif;
+line-height: 1.8;
+}
+main {
+max-width: 1000px;
+margin: auto;
+padding: 45px;
+background: #FFFFFF;
+border-radius: 12px;
+box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+h1, h2, h3 {
+color: #3F5F43;
+line-height: 1.4;
+}
+h1 {
+font-size: 2rem;
+border-bottom: 2px solid #E2E6E0;
+padding-bottom: 15px;
+}
+h2 {
+margin-top: 40px;
+padding-bottom: 8px;
+border-bottom: 1px solid #E2E6E0;
+}
+h3 {
+margin-top: 28px;
+}
+p {
+margin: 12px 0;
+}
+a {
+color: #4F6F52;
+overflow-wrap: anywhere;
+}
+img {
+display: block;
+max-width: 100%;
+height: auto;
+margin: 20px auto;
+border-radius: 8px;
+border: 1px solid #E2E6E0;
+}
+li {
+margin-bottom: 8px;
+}
+hr {
+border: 0;
+border-top: 1px solid #E2E6E0;
+margin: 35px 0;
+}
+blockquote {
+border-left: 4px solid #4F6F52;
+padding-left: 18px;
+color: #667A78;
+}
+.footer {
+text-align: center;
+margin-top: 40px;
+padding-top: 20px;
+border-top: 1px solid #E2E6E0;
+color: #91A09B;
+font-size: 13px;
+}
+@media (max-width: 600px) {
+body {
+padding: 15px 10px;
+}
+main {
+padding: 22px 18px;
+}
+h1 {
+font-size: 1.6rem;
+}
+}
+</style>
+</head>
+<body>
+<main>
+<div id="portfolio">
+Loading Go Clean E-Portfolio...
+</div>
+<div class="footer">
+Go Clean Laundry Service | Agile Project E-Portfolio
+</div>
+</main>
+<script>
+fetch('./WIL_Project.md')
+.then(response => {
+if (!response.ok) {
+throw new Error('Portfolio file could not be loaded.');
+}
+return response.text();
+})
+.then(markdown => {
+document.getElementById('portfolio').innerHTML =
+marked.parse(markdown);
+})
+.catch(error => {
+document.getElementById('portfolio').textContent =
+error.message;
+});
+</script>
+</body>
+</html>
