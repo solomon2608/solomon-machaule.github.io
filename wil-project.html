@@ -115,11 +115,11 @@ throw new Error("The Markdown library could not load. Please refresh the page.")
 }
 const filenames = [
 "WIL-Project.md",
-"WIL_Project.md"
+"WIL-Project.md"
 ];
 let response = null;
 for (const filename of filenames) {
-const result = await fetch("./" + filename);
+const result = await fetch("WIL-Project.md");
 if (result.ok) {
 response = result;
 break;
