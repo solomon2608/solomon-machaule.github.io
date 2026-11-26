@@ -101,7 +101,7 @@ throw new Error("Markdown library could not load. Please refresh the page.");
 }
 const response = await fetch("./WIL-Project.md");
 if (!response.ok) {
-throw new Error("Could not find WIL_Project.md. Check that the file exists in the repository root.");
+throw new Error("Could not find WIL-Project.md. Check that the file exists in the repository root.");
 }
 const markdown = await response.text();
 portfolio.innerHTML = marked.parse(markdown);
