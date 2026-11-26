@@ -21,26 +21,32 @@ main {
 max-width: 950px;
 margin: auto;
 padding: 40px;
-background: white;
+background: #FFFFFF;
 border-radius: 14px;
 box-shadow: 0 4px 18px rgba(0,0,0,0.06);
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
 color: #3F5F43;
 }
 h1 {
 border-bottom: 2px solid #E2E6E0;
 padding-bottom: 15px;
 }
+h2 {
+margin-top: 35px;
+border-bottom: 1px solid #E2E6E0;
+padding-bottom: 8px;
+}
 a {
 color: #4F6F52;
 font-weight: 600;
 }
 img {
+display: block;
 max-width: 100%;
 height: auto;
+margin: 18px auto;
 border-radius: 10px;
-margin: 12px 0;
 }
 blockquote {
 border-left: 4px solid #4F6F52;
@@ -67,6 +73,9 @@ text-align: left;
 th {
 background: #EAF0E8;
 }
+li {
+margin-bottom: 8px;
+}
 footer {
 margin-top: 40px;
 padding-top: 20px;
@@ -74,6 +83,9 @@ border-top: 1px solid #E2E6E0;
 text-align: center;
 color: #667A78;
 font-size: 14px;
+}
+#portfolio {
+min-height: 150px;
 }
 @media (max-width: 600px) {
 main {
@@ -87,9 +99,11 @@ padding: 15px 10px;
 </head>
 <body>
 <main>
-<div id="portfolio">Loading Go Clean portfolio...</div>
+<div id="portfolio">
+<p>Loading Go Clean portfolio...</p>
+</div>
 <footer>
-Go Clean Laundry Service | Agile E-Portfolio
+Go Clean Laundry Service | Agile Project E-Portfolio
 </footer>
 </main>
 <script>
@@ -97,11 +111,24 @@ async function loadPortfolio() {
 const portfolio = document.getElementById("portfolio");
 try {
 if (typeof marked === "undefined") {
-throw new Error("Markdown library could not load. Please refresh the page.");
+throw new Error("The Markdown library could not load. Please refresh the page.");
 }
-const response = await fetch("./WIL-Project.md");
-if (!response.ok) {
-throw new Error("Could not find WIL-Project.md. Check that the file exists in the repository root.");
+const filenames = [
+"WIL-Project.md",
+"WIL_Project.md"
+];
+let response = null;
+for (const filename of filenames) {
+const result = await fetch("./" + filename);
+if (result.ok) {
+response = result;
+break;
+}
+}
+if (!response) {
+throw new Error(
+"Could not find your WIL Markdown file. Please check its exact filename in GitHub."
+);
 }
 const markdown = await response.text();
 portfolio.innerHTML = marked.parse(markdown);
@@ -109,7 +136,7 @@ portfolio.innerHTML = marked.parse(markdown);
 portfolio.innerHTML = `
 <h2>Unable to load portfolio</h2>
 <p>${error.message}</p>
-<p>Please check the GitHub Pages deployment and try again.</p>
+<p>Please check your GitHub Pages deployment and try again.</p>
 `;
 }
 }
