@@ -99,7 +99,7 @@ try {
 if (typeof marked === "undefined") {
 throw new Error("Markdown library could not load. Please refresh the page.");
 }
-const response = await fetch("./WIL_Project.md");
+const response = await fetch("./WIL-Project.md");
 if (!response.ok) {
 throw new Error("Could not find WIL_Project.md. Check that the file exists in the repository root.");
 }
