@@ -123,7 +123,7 @@ The Agile Team Charter establishes a shared understanding of the team's objectiv
 
 ### Evidence
 
-**Agile Team Charter:** [completed Go Clean Team Charter.]
+**Agile Team Charter:** [https://docs.google.com/document/d/1OyutJqosLBLszfGnYPrG4DgOu2Qcae8U/edit?usp=sharing&ouid=104881683205263797303&rtpof=true&sd=true]
 
 ### Reflection
 
