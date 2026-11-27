@@ -72,5 +72,15 @@ Nkangala TVET College
 📞 072 841 7533  
 
 ---
+Interview Video
 
+Watch y interview presentation below.
+
+<iframe
+src="https://drive.google.com/file/d/1dHDcCa0lBfb5YACyfLGqiFlUHoq3EHPe/view?usp=drive_link"
+width="100%"
+height="450"
+allow="autoplay"
+allowfullscreen>
+</iframe>
 
