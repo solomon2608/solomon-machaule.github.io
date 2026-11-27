@@ -76,7 +76,7 @@ Nkangala TVET College
 Watch my interview presentation below.
 <div style="width: 100%; max-width: 800px; margin: 20px auto;">
 <iframe
-src="https://drive.google.com/file/d/1cHDCCe9RFb5bYACyFfEqqFi1Uho3EHPe/preview"
+src="https://drive.google.com/file/d/1dHDcCa0lBfb5YACyfLGqiFlUHoq3EHPe/view?usp=drive_link"
 width="100%"
 height="450"
 allow="autoplay"
