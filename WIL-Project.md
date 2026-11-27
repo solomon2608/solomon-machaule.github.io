@@ -277,3 +277,6 @@ This e-portfolio documents the Go Clean website, presents evidence of the projec
 The portfolio connects the practical outcome of the project with the planning, requirements management, task organisation, and reflection that support collaborative software development.
 
 Completing this portfolio has helped me develop a clearer understanding of Agile practices and their relevance to project delivery. The experience provides a foundation for applying these principles to future academic and professional projects.
+
+WIL Project Reflection attached.
+https://mycputac-my.sharepoint.com/:w:/g/personal/222359366_mycput_ac_za/IQArhO136pEZT5Oa7M2tl1f3AZx1i76SjQdFW5E1TUoJKPs?e=adMpQk
