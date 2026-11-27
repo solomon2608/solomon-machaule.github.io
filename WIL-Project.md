@@ -123,7 +123,7 @@ The Agile Team Charter establishes a shared understanding of the team's objectiv
 
 ### Evidence
 
-**Agile Team Charter:** [https://docs.google.com/document/d/1OyutJqosLBLszfGnYPrG4DgOu2Qcae8U/edit?usp=sharing&ouid=104881683205263797303&rtpof=true&sd=true]
+**Agile Team Charter:** []
 
 ### Reflection
 
@@ -238,7 +238,7 @@ The Agile Logbook documents project activities, progress, challenges, decisions,
 
 ### Evidence
 
-**Agile Logbook:** [completed Go Clean Agile Logbook.]
+**Agile Logbook:** [https://docs.google.com/document/d/1OyutJqosLBLszfGnYPrG4DgOu2Qcae8U/edit?usp=sharing&ouid=104881683205263797303&rtpof=true&sd=true]
 
 ### Reflection
 
